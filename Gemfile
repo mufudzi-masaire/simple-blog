@@ -9,6 +9,7 @@ gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0.rc1'
 gem 'haml-rails'
+gem 'html2haml'
 
 
 gem 'uglifier', '>= 1.3.0'

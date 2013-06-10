@@ -1,0 +1,5 @@
+- if @post.errors.any?
+	%h3.red= "#{pluralize(@post.errors.count, "error")} prohibited this post from being saved:"
+	%ul
+		- @post.errors.full_messages.each do |msg|
+			%li.red= msg

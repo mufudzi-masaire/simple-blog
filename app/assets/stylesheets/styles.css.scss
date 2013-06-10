@@ -1,0 +1,84 @@
+/* UNIVERSAL
+ -------------------------------------------------- */
+body {
+	padding-top: 60px;
+	padding-bottom:40px;
+	background-color: #fff;
+	}
+
+
+.center {
+	text-align: center;
+	h1{
+		color: #000000;
+	}
+}
+
+
+.right {
+	float: right;
+	margin: 10px;
+}
+
+.left {
+	float: left;
+	margin: 10px;
+}
+
+.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+#notice {
+	color: #46a546;
+}
+
+.red {
+	color: #9d261d;
+}
+
+/* HEADER 
+  -------------------------------------------------- */
+
+#logo {
+	float: left;
+	margin-left: 10px;
+	font-size: 1.7em;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-top: 9px;
+	font-weight: bold;
+	line-height: 1;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+	}
+
+#logo:hover {
+	color: #333;
+	text-decoration: none;
+	}
+	
+
+/* NAVBAR
+-------------------------------------------------- */
+
+.navbar {
+	position: fixed;
+	}	
+	
+
+/* FOOTER
+-------------------------------------------------- */	
+
+.footer {
+	border-top: 1px solid #333;
+	margin-top: 40px;
+	padding-top: 20px;
+}
+	
+	
+	
+	
+	

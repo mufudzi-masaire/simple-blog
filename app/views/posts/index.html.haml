@@ -1,0 +1,25 @@
+= provide(:title, "Home")
+
+.row
+	.span8.offset2
+
+		%h1.center Latest Posts
+
+		%br
+
+		- if @posts.empty?
+			%p No Posts Available
+		- else
+			%table.table
+				- @posts.each do |post|
+					%tr
+						%td
+							= link_to post.title, post
+							%br
+							= truncate(post.content, :length => 300)
+							%br
+							= link_to "View Post", post, class: 'right'
+			.clear
+			= link_to 'Write a new Post', new_post_path, class: 'btn span2 left'
+%br
+

@@ -1,0 +1,10 @@
+= provide(:title, "New Post")
+
+.row
+	.span6.offset3
+		= link_to 'Back', posts_path, class: 'btn right'
+		.clear
+		%h1.center Write a Post
+
+		= render 'form'
+ 

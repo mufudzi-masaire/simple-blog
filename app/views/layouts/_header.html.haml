@@ -1,0 +1,8 @@
+%header.navbar.navbar-fixed-top
+	.navbar-inner
+		.container
+			= link_to "Blog", root_path, id: 'logo'
+			.nav.pull-right
+				%ul.nav
+					%li= link_to 'Home', root_path
+					%li= link_to 'New Post', new_post_path

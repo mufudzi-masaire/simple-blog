@@ -1,0 +1,12 @@
+= provide(:title, "Edit #{@post.title}")
+
+.row
+	.span6.offset3
+
+		= link_to 'Back to Post', @post, class: 'btn span2 right'
+
+		.clear
+
+		%h1.center Editing post
+
+		= render 'form'

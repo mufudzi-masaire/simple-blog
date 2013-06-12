@@ -6,6 +6,9 @@ body {
 	background-color: #fff;
 	}
 
+.content {
+	min-height: 500px;
+}
 
 .center {
 	text-align: center;
@@ -44,7 +47,7 @@ body {
 
 #logo {
 	float: left;
-	margin-left: 10px;
+	margin-left: 20px;
 	font-size: 1.7em;
 	color: #000;
 	text-transform: uppercase;
@@ -72,11 +75,12 @@ body {
 /* FOOTER
 -------------------------------------------------- */	
 
-.footer {
+footer {
 	border-top: 1px solid #333;
 	margin-top: 40px;
-	padding-top: 20px;
+	padding: 20px;
 }
+
 	
 	
 	

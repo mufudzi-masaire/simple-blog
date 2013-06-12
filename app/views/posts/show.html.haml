@@ -10,8 +10,17 @@
 		
 		%p.center
 			%b= @post.title.upcase
+			
+		.clear
+
+		%p.center 
+			by:
+			%b= @post.author.capitalize
+
+		.clear
+
 		%p
-			%p= @post.content
+			%p= @post.content.capitalize
 
 		.clear
 

@@ -1,8 +1,10 @@
 = form_for @post do |f|
 	= render 'shared/form_errors'
-	
-	=h f.text_field :title, :placeholder => "Post Title", class: 'span6'
 
-	=h f.text_area :content, :placeholder => "Content", :rows => 10, class: 'span6'
+	=h f.text_field :author, placeholder: "Author", class: 'span6'
+
+	=h f.text_field :title, placeholder: "Post Title", class: 'span6'
+
+	=h f.text_area :content, placeholder: "Content", rows: 10, class: 'span6'
 
 	= f.submit 'Post', class: 'btn span6'

@@ -14,9 +14,9 @@
 				- @posts.each do |post|
 					%tr
 						%td
-							= link_to post.title, post
+							= link_to (post.title).capitalize, post
 							%br
-							= truncate(post.content, :length => 300)
+							= truncate((post.content).capitalize, :length => 300)
 							%br
 							= link_to "View Post", post, class: 'right'
 			.clear

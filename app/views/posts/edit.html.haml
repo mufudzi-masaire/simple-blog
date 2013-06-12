@@ -1,4 +1,4 @@
-= provide(:title, "Edit #{@post.title}")
+= provide(:title, "Edit: #{@post.title}")
 
 .row
 	.span6.offset3
@@ -7,6 +7,6 @@
 
 		.clear
 
-		%h1.center Editing post
+		%h1.center= "Edit: #{(@post.title).capitalize}"
 
 		= render 'form'

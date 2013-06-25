@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.0.rc2'
+gem 'rails', '4.0.0'
 gem 'mongoid', github: 'mongoid/mongoid'
 gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
 gem 'haml-rails'
